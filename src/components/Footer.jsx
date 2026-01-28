@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
 export default function Footer() {
   return (
@@ -11,14 +11,14 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div className="flex space-x-6">
-          <a href="#" className="hover:text-white transition" aria-label="GitHub">
+          <a href="https://github.com/adi-awan" className="hover:text-white transition" aria-label="GitHub">
             <FaGithub size={24} />
           </a>
-          <a href="#" className="hover:text-white transition" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/muhammad-adnan-00b22a334/" className="hover:text-white transition" aria-label="LinkedIn">
             <FaLinkedin size={24} />
           </a>
-          <a href="#" className="hover:text-white transition" aria-label="Twitter">
-            <FaTwitter size={24} />
+          <a href="https://wa.me/923315698418" className="hover:text-white transition" aria-label="WhatsApp">
+            <FaWhatsapp size={24} />
           </a>
         </div>
       </div>
