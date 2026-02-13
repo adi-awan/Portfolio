@@ -21,7 +21,7 @@ export default function Navbar() {
 
     // If user is at the very top, highlight Home/hero
     if (scrollPos < 100) {
-      setActiveSection("hero")
+      setActiveSection("Home")
       return
     }
 
